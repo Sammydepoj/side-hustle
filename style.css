@@ -1,0 +1,376 @@
+body{
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-color:hsl(218, 28%, 13%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.menulogo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+    background-image: url(images/logo.svg);
+    background-size: contain;
+    background-position: center;
+}
+.menu{
+    width: 15rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0rem 0.25rem;
+    
+}
+.illus{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.picbox{
+    background-image: url(images/illustration-intro.png);
+    background-position: center;
+    background-size: cover;
+    height: 31rem;
+    width: 100%;
+}
+.ppp{
+    width: 100%;
+    text-align: center;
+}
+.tit{
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.getstarted{
+    margin-top: 2rem;
+    background-color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5rem;
+    padding: 0.5rem 2.5rem;
+    
+}
+.newsection{
+    margin-top: 4rem;
+display: flex;
+justify-content: space-between;
+justify-items: auto;
+flex-wrap: wrap;
+
+
+}
+h3{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.firstcontainer,.secondcontainer,.thirdcontainer,.fourthcontainer{
+    padding: 2rem 0rem 7.5rem;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.icon1{
+width: 3.5rem;
+height: 3.5rem;
+margin: 0rem auto;
+background-image: url(images/icon-access-anywhere.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.icon2{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0rem auto;
+    background-image: url(images/icon-security.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+    .icon3{
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 0rem auto;
+        background-image: url(Images/icon-collaboration.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+      
+        .icon4{
+            width: 3.5rem;
+            height: 3.5rem;
+            margin: 0rem auto;
+            background-image: url(Images/icon-any-file.svg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+            .section2{
+                display:flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 2rem;
+                width: 100%;
+                height: auto;
+                box-sizing: border-box;
+            }
+            .img{
+                background-image: url(images/illustration-stay-productive.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 50%;
+                height: 17rem;
+                box-sizing: content-box;
+            }
+            .txt{
+                width: 50%;
+                height: 17rem;
+                box-sizing: content-box;
+
+            }
+            .linkc{
+color: aqua;
+text-decoration: underline;
+
+            }
+            .section3{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                box-sizing: content-box;
+            }
+            .cont1{
+                color: white;
+                background-color:hsl(219, 30%, 18%) ;
+                padding: 3rem 2rem;
+                font-weight: bolder;
+                margin: 2rem;
+                
+            }
+            .satish{
+                
+                width:4rem;
+                height:4rem;
+                border-radius: 50%;
+                margin-top: 1rem;
+                float: left;
+            }
+            .aas{
+                font-size: 1rem;
+                margin: 2rem 0rem 0rem 1rem;
+                float: left;
+            }
+            .aac{
+                font-size: 0.7rem; 
+            }
+            .cont2{
+                color: white;
+                background-color:hsl(219, 30%, 18%) ;
+                padding: 3rem 2rem;
+                font-weight: bolder;
+                margin: 2rem;
+                
+            }
+            .cont3{
+                color: white;
+                background-color:hsl(219, 30%, 18%) ;
+                padding: 3rem 2rem;
+                font-weight: bolder;
+                margin: 2rem;
+                
+            }
+            .banner{
+                width: 60%;
+                background-color: hsl(217, 28%, 15%);
+                margin: 0rem auto;
+                box-shadow: 0.3rem 0.3rem 0.5rem 0.1rem transparent;
+                border: 0.5rem solid transparent;
+                border-radius: 0.5rem;
+            }
+            input{
+                width: 50%;
+                height: 2.5rem;
+                margin: 0rem 2rem 2rem 1rem;
+                
+                border-radius: 3rem;  
+                
+            }
+            .input2{
+                width: 30%;
+                height: 2.5rem;
+                margin: 0rem 2rem 2rem 1rem;
+                background-color:aqua;
+                border-radius: 3rem; 
+                color: white;
+                font-weight: bolder; 
+                
+            }
+            
+    footer{
+        background-color: hsl(216, 53%, 9%);
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .flogo{
+        width: 25%;
+        font-size: 0.8em;
+        padding: 3rem;
+    }
+    .fcontact{
+        width: 25%;
+        padding: 3rem;
+        color: white;
+
+    }
+    li{
+        list-style-type: none;
+    }
+    .fabout{
+        width: 25%;
+        color: white;
+        padding: 3rem;
+    }
+    .fcontactus{
+        width: 25%;
+        color: white;
+        padding: 3rem;
+    }
+    .fsmedia{
+        width: 25%;
+        color: white;
+        padding: 3rem;
+        display: flex;
+       
+    }
+    @media  screen and (max-width:500px) {
+        
+body{
+    background-image: url(images/bg-curvy-mobile.svg);
+}
+
+        .logo{
+            width: 52%;
+            background-size: cover;
+            background-position: center;
+        }
+        .section2{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .section3{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .newsection{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .illus{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        footer{
+           
+            flex-direction: column;
+            width: 100%;
+            align-items: left;
+            padding: 0rem;
+            margin: 0rem;
+         }
+         .flogo{
+             width: 100%;
+             box-sizing: border-box;
+             padding: 1rem 0rem;
+            margin: 1rem 0rem;
+         }
+         .fcontact{
+            width: 100%;
+             box-sizing: border-box;
+             padding: 1rem 0.5rem;
+             margin: 1rem 0.5rem;
+        }
+        
+        .fabout{
+            width: 100%;
+             box-sizing: border-box;
+             padding: 1rem 0rem;
+            margin: 1rem 0rem;
+        }
+        .fcontactus{
+            width: 100%;
+             box-sizing: border-box;
+             padding: 1rem 0rem;
+            margin: 1rem 0rem;
+        }
+        .fsmedia{
+            width: 100%;
+             box-sizing: border-box;
+             padding: 1rem 0rem;
+            margin: 1rem 0rem;
+        }
+        input{
+            width: 90%;
+            margin: 0rem 1rem 1rem ;
+        }
+        .input2{
+            width: 90%;
+            margin: 0rem 1rem 1rem ;
+        }
+         .img{
+            width: 100%;
+            height: 17rem;
+            
+        }
+        .txt{
+            width: 100%;
+        }
+        .firstcontainer,.secondcontainer,.thirdcontainer,.fourthcontainer{
+            width: 100%;
+            margin:0rem 0rem;
+            padding: 0rem 0rem;
+            
+        }
+        .banner{
+            width: 100%;
+            margin: 0rem;
+            padding: 0rem;
+            box-sizing: border-box;
+        }
+        .picbox{
+            width: 100%;
+            height: 17rem;
+            background-size: cover;
+            background-position: center;
+        }
+    }
