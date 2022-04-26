@@ -269,7 +269,7 @@ text-decoration: underline;
         display: flex;
        
     }
-    @media  screen and (max-width:500px) {
+    @media  screen and (max-width:375px) {
         
 body{
     background-image: url(images/bg-curvy-mobile.svg);
