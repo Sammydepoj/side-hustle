@@ -392,4 +392,35 @@ body{
     }
 
 
+    @media screen and (max-width: 767px) {
+        /* For mobile phones: */
+        .picbox, .img {
+          width: 50%;
+        }
+        .menu {
+            display: flex;
+            flex-direction: row         ;
+        }
+        .logo {
+           width: 50%;
+           background-size: contain;
+        }
+        .ppp{
+            width: 50%;
+        }
+        .firstcontainer,.secondcontainer,.thirdcontainer,.fourthcontainer{
+            padding: 1rem 0rem 1rem;
+            width: 50%;
+            height: auto;
+        }
+        .banner{
+            margin: 1rem;
+            width: 90%;
+        }
+        .fcontact {
+            padding: 0rem 2rem
+        }
+      }
+
+
    
